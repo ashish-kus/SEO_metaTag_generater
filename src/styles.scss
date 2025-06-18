@@ -1,0 +1,72 @@
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+:root {
+  color-scheme: dark;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Inter", monospace;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+html {
+  -webkit-overflow-scrolling: touch;
+  overflow-scrolling: touch;
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+}
+
+#menu::-webkit-scrollbar {
+  width: 0;
+  height: 0;
+}
+
+::-webkit-scrollbar {
+  @apply w-2 h-2;
+}
+
+::-webkit-scrollbar-track {
+  @apply bg-zinc-950;
+}
+
+::-webkit-scrollbar-thumb {
+  @apply bg-zinc-700 rounded;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  @apply bg-zinc-600;
+}
+
+// .hljs-comment,
+// .hljs-quote,
+// .hljs-deletion {
+//   @apply text-zinc-700;
+// }
+
+// .hljs-string,
+// .hljs-meta,
+// .hljs-name,
+// .hljs-type,
+// .hljs-symbol,
+// .hljs-bullet,
+// .hljs-addition,
+// .hljs-variable,
+// .hljs-template-tag,
+// .hljs-template-variable {
+//   @apply text-white;
+// }
+
+// .hljs-title,
+// .hljs-attr,
+// .hljs-meta-keyword {
+//   @apply text-zinc-500;
+// }
