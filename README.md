@@ -1,5 +1,3 @@
-[seotopper.netlify.app](https://seotopper.netlify.app/)
-
 ```
   <!-- HTML Meta Tags -->
   <meta charset="utf-8">
